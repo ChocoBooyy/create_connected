@@ -43,6 +43,12 @@ public class ItemApplicationRecipeGen extends ProcessingRecipeGen {
                     new ModLoadedCondition(Mods.DREAMS_DESIRES.id()),
                     new ModLoadedCondition(Mods.DRAGONS_PLUS.id())
             ));
+    GeneratedRecipe WITHERING_CATALYST = fanCatalystFromEmpty(
+            "withering_catalyst", Items.WITHER_ROSE, CCBlocks.FAN_WITHERING_CATALYST::asItem,
+            new ModLoadedCondition(Mods.HENRY.id()));
+    GeneratedRecipe DRAGON_BREATHING_CATALYST = fanCatalystFromEmpty(
+            "dragon_breathing_catalyst", Items.DRAGON_HEAD, CCBlocks.FAN_DRAGON_BREATHING_CATALYST::asItem,
+            new ModLoadedCondition(Mods.HENRY.id()));
     GeneratedRecipe ENRICHED_CATALYST = fanCatalystFromEmpty(
             "enriched_catalyst", new SimpleDatagenIngredient(Mods.NUCLEAR, "enriched_soul_soil"), CCBlocks.FAN_ENRICHED_CATALYST::asItem,
             new ModLoadedCondition(Mods.NUCLEAR.id()));

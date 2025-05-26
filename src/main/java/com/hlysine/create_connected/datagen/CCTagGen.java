@@ -55,12 +55,20 @@ public class CCTagGen {
                 .add(CCBlocks.FAN_SEETHING_CATALYST.get());
         prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts/sanding")))
                 .add(CCBlocks.FAN_SANDING_CATALYST.get());
+        prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts/withering")))
+                .add(CCBlocks.FAN_WITHERING_CATALYST.get());
+        prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts/dragon_breathing")))
+                .add(CCBlocks.FAN_DRAGON_BREATHING_CATALYST.get());
         prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts_freezing")))
                 .add(CCBlocks.FAN_FREEZING_CATALYST.get());
         prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts_superheating")))
                 .add(CCBlocks.FAN_SEETHING_CATALYST.get());
         prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts_sanding")))
                 .add(CCBlocks.FAN_SANDING_CATALYST.get());
+        prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts_withering")))
+                .add(CCBlocks.FAN_WITHERING_CATALYST.get());
+        prov.tag(BlockTags.create(Mods.HENRY.rl("fan_processing_catalysts_dragon_breathing")))
+                .add(CCBlocks.FAN_DRAGON_BREATHING_CATALYST.get());
     }
 
     private static void genItemTags(RegistrateTagsProvider<Item> provIn) {

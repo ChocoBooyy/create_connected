@@ -274,6 +274,8 @@ public class CCStandardRecipes extends CreateRecipeProvider {
     GeneratedRecipe EMPTY_CATALYST_FROM_FREEZING = clearFanCatalyst("freezing", CCBlocks.FAN_FREEZING_CATALYST);
     GeneratedRecipe EMPTY_CATALYST_FROM_SEETHING = clearFanCatalyst("seething", CCBlocks.FAN_SEETHING_CATALYST);
     GeneratedRecipe EMPTY_CATALYST_FROM_SANDING = clearFanCatalyst("sanding", CCBlocks.FAN_SANDING_CATALYST);
+    GeneratedRecipe EMPTY_CATALYST_FROM_WITHERING = clearFanCatalyst("withering", CCBlocks.FAN_WITHERING_CATALYST);
+    GeneratedRecipe EMPTY_CATALYST_FROM_DRAGON_BREATHING = clearFanCatalyst("dragon_breathing", CCBlocks.FAN_DRAGON_BREATHING_CATALYST);
     GeneratedRecipe EMPTY_CATALYST_FROM_ENRICHED = clearFanCatalyst("enriched", CCBlocks.FAN_ENRICHED_CATALYST);
     GeneratedRecipe EMPTY_CATALYST_FROM_ENDING = clearFanCatalyst("ending", CCBlocks.FAN_ENDING_CATALYST);
 
